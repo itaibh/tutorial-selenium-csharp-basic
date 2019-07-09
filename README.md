@@ -13,6 +13,6 @@
     * `git clone https://github.com/applitools/tutorial-selenium-csharp-basic.git`
 2. Open the folder `tutorial-selenium-csharp-basic`
 3. Double click the `ApplitoolsTutorial.sln`. This will open the project in Visual Studio
-3. Change the `APPLITOOLS_API_KEY` with your own.
-    * Login to Applitools > Click on the Person icon > My API Key
+3. Set your API key in the _APPLITOOLS_API_KEY_ environment variable.
+    * You can get your API key by logging into Applitools > Person Icon > My API Key.
 4. Hit Run
