@@ -64,7 +64,7 @@ namespace ApplitoolsTutorial
             eyes.AbortIfNotClosed();
 
             //Wait and collect all test results
-            TestResultSummary allTestResults = runner.GetAllTestResults();
+            TestResultsSummary allTestResults = runner.GetAllTestResults();
         }
 
     }
