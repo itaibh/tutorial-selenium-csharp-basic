@@ -27,7 +27,9 @@ namespace ApplitoolsTutorial
             eyes = new Eyes(runner);
 
             // Use Chrome browser
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("--headless");
+            driver = new ChromeDriver(options);
         }
 
 
