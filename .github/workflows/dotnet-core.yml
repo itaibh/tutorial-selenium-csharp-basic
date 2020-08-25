@@ -22,4 +22,6 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Test
+      env:
+        APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
       run: dotnet test --no-restore --verbosity normal
